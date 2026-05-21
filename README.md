@@ -31,6 +31,9 @@ This is a **grinding simulator**. You choose a zone, set a timer, and work. That
 ## Quick Start
 
 ```bash
+git clone https://github.com/47Com1c/Raknarok-Grind.git
+cd Raknarok-Grind/
+
 # Requirements: Python 3.11+ and Rich
 pip install rich
 
