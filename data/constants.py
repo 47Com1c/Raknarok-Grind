@@ -50,7 +50,7 @@ def get_session_exp(minutes: int, zone_multiplier: float = 1.0, transcendent: bo
             bracket = b
     base = SESSION_EXP["base"][bracket]
     trans_bonus = 1.3 if transcendent else 1.0
-    CHEAT_MULT = 10
+    CHEAT_MULT = 100
     return {
         "base_exp": int(base["base"] * zone_multiplier * trans_bonus * CHEAT_MULT),
         "job_exp":  int(base["job"]  * zone_multiplier * trans_bonus * CHEAT_MULT),
